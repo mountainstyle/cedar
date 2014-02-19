@@ -425,6 +425,67 @@
 		AEFD168211DCFF3B00F4448A /* CDRExampleBase.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEEE1FCD11DC27B800029872 /* CDRExampleBase.h */; };
 		AEFD168D11DCFF8600F4448A /* CDRExampleParent.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEEE1FCF11DC27B800029872 /* CDRExampleParent.h */; };
 		AEFD17BB11DD1E9E00F4448A /* CDRSharedExampleGroupPool.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD17B111DD1E7200F4448A /* CDRSharedExampleGroupPool.m */; };
+		AEFF548B18AE946B00D63B7F /* SpecHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FDB11DC27B800029872 /* SpecHelper.h */; };
+		AEFF548C18AE94DE00D63B7F /* CDRSpec.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FD211DC27B800029872 /* CDRSpec.h */; };
+		AEFF548D18AE94EE00D63B7F /* CDRExampleBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FCD11DC27B800029872 /* CDRExampleBase.h */; };
+		AEFF548E18AE94FA00D63B7F /* CDRExampleParent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FCF11DC27B800029872 /* CDRExampleParent.h */; };
+		AEFF548F18AE951300D63B7F /* ActualValue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0AF58413E9E87E00029396 /* ActualValue.h */; };
+		AEFF549018AE952C00D63B7F /* StringifiersBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF7303813ECCB7B00786282 /* StringifiersBase.h */; };
+		AEFF549118AE954800D63B7F /* CDRSpecFailure.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8C880E13626FA5006C9305 /* CDRSpecFailure.h */; };
+		AEFF549218AE955500D63B7F /* ShouldSyntax.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE84F0DA145B70DD00769F85 /* ShouldSyntax.h */; };
+		AEFF549318AE956700D63B7F /* CedarComparators.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72F7713EC730700786282 /* CedarComparators.h */; };
+		AEFF549418AE957400D63B7F /* ComparatorsBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE18A7D213F45BE500C8872C /* ComparatorsBase.h */; };
+		AEFF549518AE958700D63B7F /* CompareEqual.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF32FF3145A2E91002F93BB /* CompareEqual.h */; };
+		AEFF549618AE95B900D63B7F /* CompareGreaterThan.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF32FF7145A2EDF002F93BB /* CompareGreaterThan.h */; };
+		AEFF549718AE95C800D63B7F /* UIGeometryCompareEqual.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEC40C4E174AC4C000474D2D /* UIGeometryCompareEqual.h */; };
+		AEFF549818AE95D700D63B7F /* UIGeometryStringifiers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEC40C4F174AC4C000474D2D /* UIGeometryStringifiers.h */; };
+		AEFF549918AE95EA00D63B7F /* ComparatorsContainer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE18A7D513F45BFC00C8872C /* ComparatorsContainer.h */; };
+		AEFF549A18AE960E00D63B7F /* CedarDoubles.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6628FC8714C4DBA70016652A /* CedarDoubles.h */; };
+		AEFF549B18AE960E00D63B7F /* CedarDouble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9AA68815AC728A00617E1A /* CedarDouble.h */; };
+		AEFF549C18AE960E00D63B7F /* CedarDoubleImpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9AA6DA15AE0B0300617E1A /* CedarDoubleImpl.h */; };
+		AEFF549D18AE960E00D63B7F /* CedarMatchers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0AF55E13E9C0E300029396 /* CedarMatchers.h */; };
+		AEFF549E18AE960E00D63B7F /* CedarStringifiers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72F7A13EC734000786282 /* CedarStringifiers.h */; };
+		AEFF549F18AE963500D63B7F /* Equal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF7300113ECC21E00786282 /* Equal.h */; };
+		AEFF54A018AE964200D63B7F /* Base.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72FFB13ECC21E00786282 /* Base.h */; };
+		AEFF54A218AE966800D63B7F /* StringifiersContainer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF7303913ECCB7B00786282 /* StringifiersContainer.h */; };
+		AEFF54A318AE968700D63B7F /* StubbedMethod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9AA6D115AE082500617E1A /* StubbedMethod.h */; };
+		AEFF54A418AE968700D63B7F /* BeCloseTo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72FFC13ECC21E00786282 /* BeCloseTo.h */; };
+		AEFF54A518AE968700D63B7F /* BeFalsy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE4A9457187F7D8F008566F5 /* BeFalsy.h */; };
+		AEFF54A618AE968700D63B7F /* BeGreaterThan.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF32FF1145A2D79002F93BB /* BeGreaterThan.h */; };
+		AEFF54A718AE968700D63B7F /* BeGTE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF3300B145B4F75002F93BB /* BeGTE.h */; };
+		AEFF54A818AE968700D63B7F /* BeInstanceOf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72FFD13ECC21E00786282 /* BeInstanceOf.h */; };
+		AEFF54A918AE968700D63B7F /* BeLessThan.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF33016145B6222002F93BB /* BeLessThan.h */; };
+		AEFF54AA18AE968700D63B7F /* BeLTE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF33020145B69DE002F93BB /* BeLTE.h */; };
+		AEFF54AB18AE968700D63B7F /* BeNil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72FFE13ECC21E00786282 /* BeNil.h */; };
+		AEFF54AC18AE968700D63B7F /* BeSameInstanceAs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF72FFF13ECC21E00786282 /* BeSameInstanceAs.h */; };
+		AEFF54AD18AE968700D63B7F /* BeTruthy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF7300013ECC21E00786282 /* BeTruthy.h */; };
+		AEFF54AE18AE968700D63B7F /* BeEmpty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF7301013ECC25000786282 /* BeEmpty.h */; };
+		AEFF54AF18AE96A300D63B7F /* RaiseException.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEB45A901496C8D800845D09 /* RaiseException.h */; };
+		AEFF54B018AE96B200D63B7F /* RespondTo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA17998C17F89C4B00C38060 /* RespondTo.h */; };
+		AEFF54B118AE96CB00D63B7F /* ConformTo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5898AEAF3FE8C683E6F23C1D /* ConformTo.h */; };
+		AEFF54B218AE96CB00D63B7F /* Exist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0721E2187518FD0031CC42 /* Exist.h */; };
+		AEFF54B318AE96CB00D63B7F /* Contain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE18A7FA13F4601400C8872C /* Contain.h */; };
+		AEFF54B418AE96F700D63B7F /* CDRProtocolFake.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE74902E15B45E80008EA127 /* CDRProtocolFake.h */; };
+		AEFF54B518AE96F700D63B7F /* CDRSpy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6628FC9814C4DD440016652A /* CDRSpy.h */; };
+		AEFF54B618AE96F700D63B7F /* CDRSpyInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEE8DBD2175FFCF3008AF18A /* CDRSpyInfo.h */; };
+		AEFF54B718AE96F700D63B7F /* CDRClassFake.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9AA67915AB72DA00617E1A /* CDRClassFake.h */; };
+		AEFF54B818AE96F700D63B7F /* HaveReceived.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6639A78014C50D3000B564B7 /* HaveReceived.h */; };
+		AEFF54B918AE96F700D63B7F /* RejectedMethod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE4A945D1880792E008566F5 /* RejectedMethod.h */; };
+		AEFF54BA18AE96F700D63B7F /* InvocationMatcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE597B4015B0638B00EEF305 /* InvocationMatcher.h */; };
+		AEFF54BB18AE96F700D63B7F /* CDRFake.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE74907315B488BE008EA127 /* CDRFake.h */; };
+		AEFF54BC18AE970300D63B7F /* Argument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AECF136015D1425C003AAB9C /* Argument.h */; };
+		AEFF54BD18AE970300D63B7F /* ValueArgument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AECF136315D14274003AAB9C /* ValueArgument.h */; };
+		AEFF54BE18AE970300D63B7F /* AnyInstanceArgument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE94D03E15F341B200A0C2B7 /* AnyInstanceArgument.h */; };
+		AEFF54BF18AE970300D63B7F /* ReturnValue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AECF136615D142E3003AAB9C /* ReturnValue.h */; };
+		AEFF54C018AE970300D63B7F /* AnyArgument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AECF136915D1439B003AAB9C /* AnyArgument.h */; };
+		AEFF54C118AE971B00D63B7F /* CDRExample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FCC11DC27B800029872 /* CDRExample.h */; };
+		AEFF54C218AE971B00D63B7F /* CDRExampleGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FCE11DC27B800029872 /* CDRExampleGroup.h */; };
+		AEFF54C318AE971B00D63B7F /* CDRFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEEE1FD111DC27B800029872 /* CDRFunctions.h */; };
+		AEFF54C418AE971B00D63B7F /* CDRHooks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2234907C18009DA6001C8E8D /* CDRHooks.h */; };
+		AEFF54C518AE971B00D63B7F /* CDROTestHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9637852D1491D84F0059C9F6 /* CDROTestHelper.h */; };
+		AEFF54C618AE971B00D63B7F /* CDROTestRunner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96EA1CAD142C6449001A78E0 /* CDROTestRunner.h */; };
+		AEFF54C718AE971B00D63B7F /* CDRSharedExampleGroupPool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEFD17B311DD1E8200F4448A /* CDRSharedExampleGroupPool.h */; };
+		AEFF54C818AE971B00D63B7F /* CDRSymbolicator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 969B6F95160F1FEC00C7C792 /* CDRSymbolicator.h */; };
 		CA17998D17F89C4B00C38060 /* RespondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA17998C17F89C4B00C38060 /* RespondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA17998E17F89C4B00C38060 /* RespondTo.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = CA17998C17F89C4B00C38060 /* RespondTo.h */; };
 		CA17999017F89C9700C38060 /* RespondTo.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA17998F17F89C9700C38060 /* RespondTo.mm */; };
@@ -582,6 +643,76 @@
 				CA17998E17F89C4B00C38060 /* RespondTo.h in Copy headers to framework */,
 			);
 			name = "Copy headers to framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFF548A18AE91F100D63B7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/Cedar-iOS";
+			dstSubfolderSpec = 16;
+			files = (
+				AEFF54C118AE971B00D63B7F /* CDRExample.h in CopyFiles */,
+				AEFF54C218AE971B00D63B7F /* CDRExampleGroup.h in CopyFiles */,
+				AEFF54C318AE971B00D63B7F /* CDRFunctions.h in CopyFiles */,
+				AEFF54C418AE971B00D63B7F /* CDRHooks.h in CopyFiles */,
+				AEFF54C518AE971B00D63B7F /* CDROTestHelper.h in CopyFiles */,
+				AEFF54C618AE971B00D63B7F /* CDROTestRunner.h in CopyFiles */,
+				AEFF54C718AE971B00D63B7F /* CDRSharedExampleGroupPool.h in CopyFiles */,
+				AEFF54C818AE971B00D63B7F /* CDRSymbolicator.h in CopyFiles */,
+				AEFF54BC18AE970300D63B7F /* Argument.h in CopyFiles */,
+				AEFF54BD18AE970300D63B7F /* ValueArgument.h in CopyFiles */,
+				AEFF54BE18AE970300D63B7F /* AnyInstanceArgument.h in CopyFiles */,
+				AEFF54BF18AE970300D63B7F /* ReturnValue.h in CopyFiles */,
+				AEFF54C018AE970300D63B7F /* AnyArgument.h in CopyFiles */,
+				AEFF54B418AE96F700D63B7F /* CDRProtocolFake.h in CopyFiles */,
+				AEFF54B518AE96F700D63B7F /* CDRSpy.h in CopyFiles */,
+				AEFF54B618AE96F700D63B7F /* CDRSpyInfo.h in CopyFiles */,
+				AEFF54B718AE96F700D63B7F /* CDRClassFake.h in CopyFiles */,
+				AEFF54B818AE96F700D63B7F /* HaveReceived.h in CopyFiles */,
+				AEFF54B918AE96F700D63B7F /* RejectedMethod.h in CopyFiles */,
+				AEFF54BA18AE96F700D63B7F /* InvocationMatcher.h in CopyFiles */,
+				AEFF54BB18AE96F700D63B7F /* CDRFake.h in CopyFiles */,
+				AEFF54B118AE96CB00D63B7F /* ConformTo.h in CopyFiles */,
+				AEFF54B218AE96CB00D63B7F /* Exist.h in CopyFiles */,
+				AEFF54B318AE96CB00D63B7F /* Contain.h in CopyFiles */,
+				AEFF54B018AE96B200D63B7F /* RespondTo.h in CopyFiles */,
+				AEFF54AF18AE96A300D63B7F /* RaiseException.h in CopyFiles */,
+				AEFF54A318AE968700D63B7F /* StubbedMethod.h in CopyFiles */,
+				AEFF54A418AE968700D63B7F /* BeCloseTo.h in CopyFiles */,
+				AEFF54A518AE968700D63B7F /* BeFalsy.h in CopyFiles */,
+				AEFF54A618AE968700D63B7F /* BeGreaterThan.h in CopyFiles */,
+				AEFF54A718AE968700D63B7F /* BeGTE.h in CopyFiles */,
+				AEFF54A818AE968700D63B7F /* BeInstanceOf.h in CopyFiles */,
+				AEFF54A918AE968700D63B7F /* BeLessThan.h in CopyFiles */,
+				AEFF54AA18AE968700D63B7F /* BeLTE.h in CopyFiles */,
+				AEFF54AB18AE968700D63B7F /* BeNil.h in CopyFiles */,
+				AEFF54AC18AE968700D63B7F /* BeSameInstanceAs.h in CopyFiles */,
+				AEFF54AD18AE968700D63B7F /* BeTruthy.h in CopyFiles */,
+				AEFF54AE18AE968700D63B7F /* BeEmpty.h in CopyFiles */,
+				AEFF54A218AE966800D63B7F /* StringifiersContainer.h in CopyFiles */,
+				AEFF54A018AE964200D63B7F /* Base.h in CopyFiles */,
+				AEFF549F18AE963500D63B7F /* Equal.h in CopyFiles */,
+				AEFF549A18AE960E00D63B7F /* CedarDoubles.h in CopyFiles */,
+				AEFF549B18AE960E00D63B7F /* CedarDouble.h in CopyFiles */,
+				AEFF549C18AE960E00D63B7F /* CedarDoubleImpl.h in CopyFiles */,
+				AEFF549D18AE960E00D63B7F /* CedarMatchers.h in CopyFiles */,
+				AEFF549E18AE960E00D63B7F /* CedarStringifiers.h in CopyFiles */,
+				AEFF549918AE95EA00D63B7F /* ComparatorsContainer.h in CopyFiles */,
+				AEFF549818AE95D700D63B7F /* UIGeometryStringifiers.h in CopyFiles */,
+				AEFF549718AE95C800D63B7F /* UIGeometryCompareEqual.h in CopyFiles */,
+				AEFF549618AE95B900D63B7F /* CompareGreaterThan.h in CopyFiles */,
+				AEFF549518AE958700D63B7F /* CompareEqual.h in CopyFiles */,
+				AEFF549418AE957400D63B7F /* ComparatorsBase.h in CopyFiles */,
+				AEFF549318AE956700D63B7F /* CedarComparators.h in CopyFiles */,
+				AEFF549218AE955500D63B7F /* ShouldSyntax.h in CopyFiles */,
+				AEFF549118AE954800D63B7F /* CDRSpecFailure.h in CopyFiles */,
+				AEFF549018AE952C00D63B7F /* StringifiersBase.h in CopyFiles */,
+				AEFF548F18AE951300D63B7F /* ActualValue.h in CopyFiles */,
+				AEFF548E18AE94FA00D63B7F /* CDRExampleParent.h in CopyFiles */,
+				AEFF548D18AE94EE00D63B7F /* CDRExampleBase.h in CopyFiles */,
+				AEFF548C18AE94DE00D63B7F /* CDRSpec.h in CopyFiles */,
+				AEFF548B18AE946B00D63B7F /* SpecHelper.h in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -1592,19 +1723,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0AF58513E9E87E00029396 /* ActualValue.h in Headers */,
 				AEEE1FFB11DC27B800029872 /* CDRExampleBase.h in Headers */,
 				AEEE1FFD11DC27B800029872 /* CDRExampleParent.h in Headers */,
 				AEEE1FFE11DC27B800029872 /* CDRExampleReporter.h in Headers */,
+				AEEE200811DC27B800029872 /* SpecHelper.h in Headers */,
+				AE8C880F13626FA5006C9305 /* CDRSpecFailure.h in Headers */,
 				AEEE1FFF11DC27B800029872 /* CDRFunctions.h in Headers */,
 				AEEE200011DC27B800029872 /* CDRSpec.h in Headers */,
 				AEEE200111DC27B800029872 /* Cedar.h in Headers */,
-				AEEE200811DC27B800029872 /* SpecHelper.h in Headers */,
-				AE91CA6C11DE64A3002BA6B9 /* CDRSharedExampleGroupPool.h in Headers */,
 				1FE15C1B1869091900207F0C /* CDRReportDispatcher.h in Headers */,
 				AE8C87AC13624524006C9305 /* ExpectFailureWithMessage.h in Headers */,
-				AE8C880F13626FA5006C9305 /* CDRSpecFailure.h in Headers */,
+				AE91CA6C11DE64A3002BA6B9 /* CDRSharedExampleGroupPool.h in Headers */,
 				AE0AF56513E9C0E300029396 /* CedarMatchers.h in Headers */,
-				AE0AF58513E9E87E00029396 /* ActualValue.h in Headers */,
 				AEF72F7813EC730700786282 /* CedarComparators.h in Headers */,
 				AEF72F7B13EC734000786282 /* CedarStringifiers.h in Headers */,
 				96EA1CB0142C6449001A78E0 /* CDROTestRunner.h in Headers */,
@@ -1842,6 +1973,7 @@
 				AEEE222511DC2B0600029872 /* Headers */,
 				AEEE222611DC2B0600029872 /* Sources */,
 				AEEE222711DC2B0600029872 /* Frameworks */,
+				AEFF548A18AE91F100D63B7F /* CopyFiles */,
 			);
 			buildRules = (
 			);
